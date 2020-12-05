@@ -6,7 +6,7 @@ public class AoCD2 {
     {
         FileInputStream fis;
         try {
-            fis=new FileInputStream("E:\\Projects\\java\\AoC 2020\\src\\input");
+            fis=new FileInputStream("input");
         }
         catch (Exception e)
         {System.out.println("File Not Found.");

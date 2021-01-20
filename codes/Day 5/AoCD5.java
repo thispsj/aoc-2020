@@ -6,7 +6,7 @@ public class AoCD5 {
     {
         FileInputStream fis;
         try {
-            fis=new FileInputStream("F:\\Profile_Data\\Documents\\D drive data\\Khanna\\temp\\AoC 2020\\src\\input");
+            fis=new FileInputStream("input");
         }
         catch (Exception e)
         {fis=(FileInputStream)System.in;}

@@ -8,7 +8,7 @@ public class AoCD6 {
         AoCD6 doTask=new AoCD6();
         FileInputStream fis;
         try{
-            fis=new FileInputStream("E:\\Projects\\java\\AoC 2020\\src\\input");
+            fis=new FileInputStream("input");
         }
         catch(Exception e)
         {fis=null;}

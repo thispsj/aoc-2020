@@ -11,7 +11,7 @@ public class AoCD11 {
         AoCD11 doTask=new AoCD11();
         FileInputStream fis;
         try{
-            fis=new FileInputStream("E:\\Projects\\java\\AoC 2020\\src\\input");
+            fis=new FileInputStream("input");
         }
         catch(Exception e)
         {fis=null;}

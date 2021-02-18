@@ -24,16 +24,16 @@ public class AoCD11 {
             s = doTask.countSeats(imap);
             //doTask.wFile(imap); For Debugging purposes only.
         }
-        System.out.println("Part 1 : "+s);
+        System.out.println(s);
         imap =doTask.exMap(mfile);cp=new char[doTask.maxcy][doTask.maxcx];
         while(doTask.compare(imap, cp)) {
             System.arraycopy(imap,0,cp,0,imap.length);
             imap=doTask.simcb(imap);
             s = doTask.countSeats(imap);
-            doTask.wFile(imap);
+           // doTask.wFile(imap);
         }
 
-        System.out.println("Part 2 : "+s);
+        System.out.println(s);
     }
 
     private boolean compare(char[][] map1,char[][] map2)
@@ -359,10 +359,10 @@ public class AoCD11 {
     }
 
 
-    private void wFile(char[][] map)
+/*    private void wFile(char[][] map)
     {
         try{
-            FileOutputStream fos=new FileOutputStream("E:\\Projects\\java\\AoC 2020\\src\\output.txt");
+            FileOutputStream fos=new FileOutputStream("output.txt");
             PrintWriter pw=new PrintWriter(fos,true);
             for (int i = 0; i < maxcy; i++) {
                 for (int j = 0; j < maxcx; j++) {
@@ -374,4 +374,5 @@ public class AoCD11 {
         catch (Exception e)
         {System.out.println(0);}
     }
-}
+}*/
+

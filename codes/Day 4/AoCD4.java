@@ -8,7 +8,7 @@ public class AoCD4 {
     {
         FileInputStream fis;
         try {
-            fis=new FileInputStream("F:\\Profile_Data\\Documents\\D drive data\\Khanna\\temp\\AoC 2020\\src\\input");
+            fis=new FileInputStream("./input");
         }
         catch (Exception e)
         {System.out.println("File not found.");
